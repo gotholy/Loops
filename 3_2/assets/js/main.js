@@ -6,9 +6,9 @@ for (let i = 0; i < numArr.length; i++) {
       console.log(
         `${numArr[i]} is devidable by ${j}. The result is: ${numArr[i] / j}`
       );
-      output.textContent = `${numArr[i]} is devidable by ${j}. The result is: ${
-        numArr[i] / j
-      }`;
+      output.textContent += `${
+        numArr[i]
+      } is devidable by ${j}. The result is: ${numArr[i] / j}`;
     }
   }
 }
